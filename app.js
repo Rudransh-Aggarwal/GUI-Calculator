@@ -29,7 +29,7 @@ app.post("/calculate", (req, res) => {
             result = n1 * n2;
             break;
         case "div":
-            result = n1 / n2 ;
+            result = n2 !== 0 ? n1 / n2 : "Cannot divide by zero";
             break;
         default:
             result = "Invalid Operation";
