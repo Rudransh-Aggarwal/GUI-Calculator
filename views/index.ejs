@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculator</h2>
+        <form action="/calculate" method="POST">
+            <input type="number" name="num1" placeholder="Enter first number" required>
+            <input type="number" name="num2" placeholder="Enter second number" required>
+
+            <div class="buttons">
+                <button type="submit" name="operation" value="add">+</button>
+            </div>
+        </form>
+
+        <% if (result !== null) { %>
+            <h3>Result: <%= result %></h3>
+        <% } %>
+    </div>
+</body>
+</html>

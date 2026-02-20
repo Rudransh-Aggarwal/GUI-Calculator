@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/Rudransh-Aggarwal/GUI-Calculator#readme",
   "dependencies": {
+    "body-parser": "^2.2.2",
+    "ejs": "^4.0.1",
     "express": "^5.2.1"
   }
 }
